@@ -9,6 +9,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User findById() {
-        return null;
+        return new User();
     }
 }
