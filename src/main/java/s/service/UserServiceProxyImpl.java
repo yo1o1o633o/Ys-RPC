@@ -10,9 +10,9 @@ public class UserServiceProxyImpl implements UserService {
     private UserService userService = new UserServiceImpl();
 
     @Override
-    public User findById() {
+    public User findById(Integer id) {
         System.out.println("代理类, 前置操作...");
-        User user = userService.findById();
+        User user = userService.findById(id);
         System.out.println("代理类, 后置操作...");
         return user;
     }

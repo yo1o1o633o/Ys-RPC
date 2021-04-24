@@ -8,7 +8,7 @@ import s.entity.User;
 public class UserServiceImpl implements UserService {
 
     @Override
-    public User findById() {
-        return new User();
+    public User findById(Integer id) {
+        return new User(id, "Yang", 30);
     }
 }

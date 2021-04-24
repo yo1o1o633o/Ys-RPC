@@ -6,5 +6,5 @@ import s.entity.User;
  * @author shuai.yang
  */
 public interface UserService {
-    User findById();
+    User findById(Integer id);
 }
