@@ -7,4 +7,6 @@ import s.entity.User;
  */
 public interface UserService {
     User findById(Integer id);
+
+    User save();
 }

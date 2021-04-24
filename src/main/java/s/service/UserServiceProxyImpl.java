@@ -16,4 +16,9 @@ public class UserServiceProxyImpl implements UserService {
         System.out.println("代理类, 后置操作...");
         return user;
     }
+
+    @Override
+    public User save() {
+        return null;
+    }
 }

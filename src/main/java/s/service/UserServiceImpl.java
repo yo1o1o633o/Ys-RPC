@@ -11,4 +11,9 @@ public class UserServiceImpl implements UserService {
     public User findById(Integer id) {
         return new User(id, "Yang", 30);
     }
+
+    @Override
+    public User save() {
+        return new User(100000, "保存", 30);
+    }
 }
