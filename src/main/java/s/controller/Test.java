@@ -7,6 +7,9 @@ import s.service.UserServiceProxyImpl;
 
 import java.lang.reflect.Proxy;
 
+/**
+ * @author shuai.yang
+ */
 public class Test {
     public static void main(String[] args) {
         UserService userServiceProxy = new UserServiceProxyImpl();
